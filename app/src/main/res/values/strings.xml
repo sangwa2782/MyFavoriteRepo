@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">MyGit</string>
+    <string name="app_name">MyGitRepos</string>
+    <string name="enter_owner_name">Enter owner name</string>
+    <string name="enter_repository_name">Enter repository name</string>
+    <string name="get_your_repo">Get your repo</string>
+    <string name="track_your_favourite_repo">Track your favourite repo</string>
 </resources>

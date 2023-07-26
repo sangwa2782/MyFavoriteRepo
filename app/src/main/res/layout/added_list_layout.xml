@@ -5,9 +5,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="10dp"
-    android:background="@color/Background">
+    >
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cvRepo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#6E6B75"
@@ -31,7 +32,7 @@
                 >
 
                 <TextView
-                    android:id="@+id/rcyclr_name"
+                    android:id="@+id/tvName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Name"
@@ -45,30 +46,23 @@
                     />
 
                 <ImageView
+                    android:id="@+id/ivShare"
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_alignParentEnd="true"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/share"
-                    />
+                    android:src="@drawable/share" />
 
             </RelativeLayout>
 
             <TextView
-                android:id="@+id/rcyclr_desc"
+                android:id="@+id/tvDesc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:text="description dljfsd jdsjfdsjjd jsdkfj sjfj dfjlj djj jfjkjsdfjj  dsjdsjjdfjfdljs  jdjd sdfjls sljfljsdlj sjlksj flsjf lkjslfjslj lksdjflkd jsfjsdl kfjlk sjfsjf"
                 android:paddingLeft="10dp"
                 android:maxLines="2"
-
                 android:ellipsize="end"/>
-
-
-
-
-
 
         </LinearLayout>
 
